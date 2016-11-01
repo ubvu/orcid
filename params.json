@@ -1,0 +1,6 @@
+{
+  "name": "ORCiD-monitor",
+  "tagline": "",
+  "body": "# orcid-monitor\r\nThe orcid monitor contains two tools. The orcid-usage-grade and the orcid-potential\r\n\r\n## orcid-usage-grade\r\nThis tool checks how active a person has used the elements and connectability of her ORCiD record.\r\n\r\n* input is a list of ORCiD's we know from researchers using it in PURE, our research information system, and the orcid-potential (see below)\r\n* output is a datafile with additional columns defining the usage grade of the orcid records.\r\n* usage grade is measued by if and how many (sub-)entries an orcid record contains about: affiliation, funding, works, other names, other identifiers, etc.\r\n\r\n## orcid-potential\r\nThis tool checks the pool of researchers in the ORCiD database from a research institution.\r\n\r\n* input is based on a datafile exported from the research information systemen PURE. \r\n* This datafile contains the DOI's of all the currently active researchers, and the last name.\r\n* The tool matches the last name with the returned orcid records.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
