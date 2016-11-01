@@ -1,5 +1,7 @@
 # orcid-monitor
-The orcid monitor contains two tools. The orcid-usage-grade and the orcid-potential
+The orcid monitor contains two tools. The orcid-usage-grade and the orcid-potential.
+
+* [Download and documentation](https://ubvu.github.io/orcid-monitor/)
 
 ## orcid-usage-grade
 This tool checks how active a person has used the elements and connectability of her ORCiD record.
