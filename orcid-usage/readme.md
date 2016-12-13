@@ -2,12 +2,10 @@
 The monitor will produce an spreadsheet with in each column the usage status of different elements of each ORCiD.
 This way you can monitor if and how people ORCiD up to its potential.
 
-## Requirements
+#Preparation
 - copy this orcid-monitor code to your system
 - install python
 - open command line, go to the location of the orcid-monitor code
-
-#Preparation
 
 ## API keys
 Rename file ```config.example.py``` to ```config.py```
@@ -35,7 +33,7 @@ For example:
 ```
 python download.py dec2016
 ```
-This will create a folder "dec2016" with xml files on each orcid.
+This will create a folder ```dec2016``` with xml files on each orcid.
  
 ## Analyse ORCiD's
 Now run the analysis.

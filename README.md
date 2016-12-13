@@ -4,7 +4,7 @@ The orcid monitor contains two tools. The orcid-usage-grade and the orcid-potent
 * [Download and documentation](https://ubvu.github.io/orcid-monitor/)
 
 ## orcid-usage
-This tool checks how active a person has used the elements and connectability of her ORCiD record.
+This tool checks how active a person has used the elements and connectability of her ORCiD record. (See ```readme.md``` in folder ```orcid-usage``` for usage instructions.)
 
 * input is a list of ORCiD's we know from researchers using it in PURE, our research information system, and the orcid-potential (see below)
 * output is a datafile with additional columns defining the usage grade of the orcid records.
