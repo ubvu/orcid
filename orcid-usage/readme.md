@@ -15,7 +15,7 @@ Get key's? Read more on https://orcid.org/content/register-client-application-0
 ## List organisation markers
 First create a file ```organization_ids.txt``` .
 This contains id's that are known in the ORCiD database that mark your research organisation.
-Currently Ringrold-id's and Fundref-id's are used. List each organisation id on a new line. Use prefix FUNDREF: or RINGOLD: to namespace the id's.
+Currently Ringrold-id's and Fundref-id's are used. List each organisation id on a new line. Use prefix FUNDREF, or RINGOLD, to namespace the id's; use a comma to separate the prefix from id.
 Find your organisation id on http://ido.ringgold.com and on http://ftp.crossref.org/fundref/fundref_registry.html
 
 ## List ORCiD's
