@@ -20,7 +20,10 @@ def download_orcid(orcid, dest_folder, token):
 
 
 if __name__ == '__main__':
-    path = sys.argv[1]
+    try:
+        path = sys.argv[1]
+    except:
+        path = '240117'
 
     dest = os.path.join(os.getcwd(), 'data', 'downloads', path)
 
